@@ -21,11 +21,13 @@ Key features of the project include:
 ## Getting Started
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/your-username/real-estate-management-system.git
    ```
 
 2. Install dependencies:
+
    - Navigate to the `server` directory and run:
      ```
      npm install
@@ -36,6 +38,7 @@ Key features of the project include:
      ```
 
 3. Set up environment variables:
+
    - Create a `.env` file in the `server` directory and add the following variables:
      ```
      DB_URL=Your-mongodb-url
@@ -56,10 +59,11 @@ Key features of the project include:
 ## Build Command
 
 To build the project, run the following command in the root directory:
-  - In the `client` directory, run:
-     ```
-     npm run build
-     ```
+
+- In the `client` directory, run:
+  ```
+  npm run build
+  ```
 
 ## Project Structure
 
@@ -80,7 +84,3 @@ The project is structured as follows:
 - `client/src/components`: Contains the frontend components, including pages, forms, and reusable UI elements.
 - `client/src/store`: Contains the Redux store configuration and reducers.
 - `client/src/services`: Contains the API service for making requests to the backend.
-
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
